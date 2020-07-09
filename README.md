@@ -1,9 +1,11 @@
-# Boilerplate for Node.js, Express, Nodemon, MongoDB and Mongoose
-Node.js: JavaScript backend
-Express: framework for Node
-Nodemon: automatically reload Node app
-MongoDB: document-oriented database
-Mongoose: MongoDB object modeling for Node
+# Node-base
+Boilerplate for Node.js, Express, Nodemon, MongoDB and Mongoose.
+
+- Node.js: JavaScript backend
+- Express: framework for Node
+- Nodemon: automatically reload Node app
+- MongoDB: document-oriented database
+- Mongoose: MongoDB object modeling for Node
 
 ## Features
 - cors
