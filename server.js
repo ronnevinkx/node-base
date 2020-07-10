@@ -21,7 +21,10 @@ connection.once('open', () => {
 	console.log('MongoDB database connection established successfully');
 });
 
-// set routes
+// serve static files
+app.use(express.static(path.join(__dirname, 'public')));
+
+// routes
 
 // start server
 app.listen(PORT, () => console.log(`Server is running in ${NODE_ENV} mode on port ${PORT}`));

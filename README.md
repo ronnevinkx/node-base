@@ -1,4 +1,4 @@
-# Node-base
+# Node Base
 Boilerplate for Node.js, Express, Nodemon, MongoDB and Mongoose.
 
 - Node.js: JavaScript backend
