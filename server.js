@@ -19,6 +19,8 @@ mongoose.connect(DB_URI, { useNewUrlParser: true, useCreateIndex: true, useUnifi
 const connection = mongoose.connection;
 connection.once('open', () => {
 	console.log('MongoDB database connection established successfully');
+}).on('error', (error) => {
+	console.log('MongoDB connection error:', error);
 });
 
 // serve static files
