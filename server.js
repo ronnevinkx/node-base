@@ -13,8 +13,7 @@ app.use(cors());
 app.use(express.json());
 
 // connect to db
-const DB_URI = process.env.ATLAS_URI;
-mongoose.connect(DB_URI, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false });
+mongoose.connect(process.env.DB_URI, { useNewUrlParser: true, useCreateIndex: true, useUnifiedTopology: true, useFindAndModify: false });
 
 const connection = mongoose.connection;
 connection.once('open', () => {
